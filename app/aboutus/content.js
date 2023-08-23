@@ -23,7 +23,7 @@ const Content = () => {
           <div
             className="bg-cover bg-no-repeat bg-center"
             style={{
-              backgroundImage: `url('./images/banner.PNG')`,
+              backgroundImage: `url('/images/banner.PNG')`,
               backgroundColor: "rgba(0,0,0,0.6)",
               backgroundBlendMode: "soft-light",
             }}
