@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from "./images/banner.PNG"
+
 import Image from "next/image";
 const Content = () => {
   // const handleDownload = () => {
@@ -23,11 +23,12 @@ const Content = () => {
           <div
             className="bg-cover bg-no-repeat bg-center"
             style={{
-              backgroundImage: `url('/images/banner.PNG')`,
+              backgroundImage: `url('banner.PNG')`,
               backgroundColor: "rgba(0,0,0,0.6)",
               backgroundBlendMode: "soft-light",
             }}
           >
+            
             <div className="pt-[300px] pl-28 pb-24">
               <div className="grid grid-cols-2">
                 <div>
@@ -75,8 +76,9 @@ const Content = () => {
         </button>
               </div>
               <div className="ml-">
-                <img src="./images/logo.PNG" className="" alt="" />
-                <Image src="/logo.PNG" className="ml-52 w-2/3" width ='500' height= '500' quality={100}></Image>
+                {/* <img src="./images/logo.PNG" className="" alt="" /> */}
+                {/* <Image src="/img-2.PNG" className="ml-52 w-2/3" width ='500' height= '500' quality={100} alt=''></Image> */}
+                <Image src="/logo.png" className="ml-52 w-2/3" width ='500' height= '500' quality={100} alt=''></Image>
               </div>
             </div>
           </div>
@@ -105,7 +107,7 @@ const Content = () => {
                 </p>
               </div>
               <div>
-              <Image src="/img-2.PNG" className="ml-52 w-2/3" width ='500' height= '500' quality={100}></Image>
+              <Image src="/img-2.PNG" className="ml-52 w-2/3" width ='500' height= '500' quality={100} alt=''></Image>
               </div>
             </div>
   
@@ -126,7 +128,7 @@ const Content = () => {
                 </p>
               </div>
               <div>
-              <Image src="/img-3.PNG" className="ml-52 w-2/3" width ='500' height= '500' quality={100}></Image>
+              <Image src="/img-3.PNG" className="ml-52 w-2/3" width ='500' height= '500' quality={100} alt=''></Image>
               </div>
             </div>
           </div>

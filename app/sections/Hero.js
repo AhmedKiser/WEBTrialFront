@@ -54,14 +54,54 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      
 
       {/* Social Media Icons */}
-      <div className="absolute bottom-[20%] right-0 flex flex-col gap-8 text-5xl">
+      {/* <div className="absolute bottom-[20%] right-0 flex flex-col gap-8 text-5xl">
         <BsFacebook />
         <BsLinkedin />
         <BsGithub />
         <BsYoutube />
         <BsMedium />
+      </div> */}
+
+
+      <div className="absolute bottom-[20%] right-0 flex flex-col gap-8 text-5xl">
+        {/* Facebook Link */}
+        <a
+          href="https://www.facebook.com/nsuacmsc"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BsFacebook />
+        </a>
+        <a
+          href="https://bd.linkedin.com/company/nsuacmsc"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BsLinkedin />
+        </a>
+
+        <a
+          href="https://github.com/NSU-ACM-SC"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BsGithub />
+        </a>
+        
+
+        {/* YouTube Link */}
+        <a
+          href="https://www.youtube.com/@nsuacmstudentchapter4819"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BsYoutube />
+        </a>
+
+        {/* <BsMedium /> */}
       </div>
 
       {/* Down Arrow */}
